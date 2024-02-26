@@ -2,9 +2,9 @@
 using namespace std;
 
 int main(){
-    char znak;
+    char dzialanie;
     int wynik,a,b;
-while(cin>>znak>>a>>b){
+while(cin>>dzialanie>>a>>b){
     switch(znak){
     case '+':
         wynik=a+b;
