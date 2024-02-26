@@ -1,15 +1,11 @@
 #include <iostream>
-
 using namespace std;
 
-int main()
-{
+int main(){
     char znak;
     int wynik,a,b;
-while(cin>>znak>>a>>b)
-{
-    switch(znak)
-    {
+while(cin>>znak>>a>>b){
+    switch(znak){
     case '+':
         wynik=a+b;
         break;
@@ -29,7 +25,5 @@ while(cin>>znak>>a>>b)
     }
 cout<<wynik<<endl;
 }
-
-
     return 0;
 }
